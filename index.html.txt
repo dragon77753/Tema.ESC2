@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
 <meta charset="UTF-8">
-<title>Random User App</title>
+<title>Generator de Căței 🐶</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Random User Generator</h1>
+<h1>🐾 Generator de Căței Fericiți 🐾</h1>
 
 <div class="card">
-    <img id="avatar" src="" alt="Profile Picture">
-    <table>
-        <tr><td>Name</td><td id="name"></td></tr>
-        <tr><td>Email</td><td id="email"></td></tr>
-        <tr><td>Phone</td><td id="phone"></td></tr>
-        <tr><td>Country</td><td id="country"></td></tr>
-    </table>
+    <img id="dogImage" src="" alt="Poză cățel">
 
-    <button id="loadUser">Load New User</button>
+    <p id="description">Apasă pe buton pentru a vedea un cățel drăgălaș 🦴</p>
+
+    <ul>
+        <li>🐕 <strong>Rasa:</strong> <span id="breed"></span></li>
+        <li>🌍 <strong>Sursa imaginii:</strong> <span id="source"></span></li>
+    </ul>
+
+    <button id="loadDog">🐶 Arată-mi un cățel nou!</button>
 </div>
 
 <script src="script.js"></script>
